@@ -3,34 +3,35 @@
     padding: 0;
 }
 
-body {
-    background-color: #f0f0f0;
+#container {
     display: grid;
-    grid-template-columns: 280px 280px 280px 280px;
-    grid-template-rows: 100vh 100vh 100vh 100vh;
-    grid-template-areas: "LeftColumn RightColumn TopColumn BottomColumn" "LeftColumn RightColumn TopColumn BottomColumn"
+    grid-template-columns: auto auto auto auto;
 }
 
-#LeftColumn {
-    width: 280px;
-    height: 100vh;
-    background-color: #003620;
+.left-column {
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    background-color: #e5ff00;
 }
 
-#RightColumn {
-    width: 280px;
-    height: 100vh;
-    background-color: #000000;
+.right-column {
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    background-color: #00ff37;
 }
 
-#TopColumn {
-    width: 280px;
-    height: 100hv;
+.top-column {
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
     background-color: #0004ff;
 }
 
-#BottomColumn {
-    width: 280px;
-    height: 100vh;
+.bottom-column {
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
     background-color: #ff0303;
 }
